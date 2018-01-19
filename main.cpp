@@ -59,6 +59,8 @@ phylogeny create_phylogeny()
   return p;
 }
 
+/// Do a depth-first search on a phylogeny,
+/// print indices of vertices explored
 int main()
 {
   const phylogeny p = create_phylogeny();
